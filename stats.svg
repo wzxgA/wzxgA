@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="280" viewBox="0 0 760 280">
+  <defs>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c471ed"/>
+      <stop offset="50%" stop-color="#e94560"/>
+      <stop offset="100%" stop-color="#ff6b9d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 卡片背景 -->
+  <rect x="10" y="10" width="740" height="260" rx="12" fill="#21222c" stroke="#3a3c4e" stroke-width="1.5" filter="url(#cardShadow)"/>
+
+  <!-- 标题 -->
+  <text x="40" y="55" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="700" fill="#e94560">
+    wzxgA's GitHub Stats
+  </text>
+
+  <!-- 分隔线 -->
+  <line x1="40" y1="75" x2="480" y2="75" stroke="#3a3c4e" stroke-width="1"/>
+
+  <!-- 统计项 1: Total Stars Earned -->
+  <g>
+    <circle cx="55" cy="105" r="9" fill="#ffd166" opacity="0.15"/>
+    <text x="48" y="112" font-size="18">⭐</text>
+    <text x="85" y="112" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total Stars Earned:</text>
+    <text x="420" y="112" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
+      773
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- 统计项 2: Total Commits -->
+  <g>
+    <circle cx="55" cy="145" r="9" fill="#7fffd4" opacity="0.15"/>
+    <text x="48" y="152" font-size="18">⏱</text>
+    <text x="85" y="152" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total Commits (2026):</text>
+    <text x="420" y="152" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
+      669
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.3s" begin="0.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- 统计项 3: Total PRs -->
+  <g>
+    <circle cx="55" cy="185" r="9" fill="#60a5fa" opacity="0.15"/>
+    <text x="48" y="192" font-size="18">🔀</text>
+    <text x="85" y="192" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total PRs:</text>
+    <text x="420" y="192" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
+      4
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.7s" begin="0.4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- 统计项 4: Total Issues -->
+  <g>
+    <circle cx="55" cy="225" r="9" fill="#f87171" opacity="0.15"/>
+    <text x="48" y="232" font-size="18">⚠️</text>
+    <text x="85" y="232" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total Issues:</text>
+    <text x="420" y="232" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
+      17
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- 统计项 5: Contributed to -->
+  <g>
+    <circle cx="55" cy="265" r="9" fill="#a78bfa" opacity="0.15"/>
+    <text x="48" y="272" font-size="18">💻</text>
+    <text x="85" y="272" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Contributed to (last year):</text>
+    <text x="420" y="272" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
+      8
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.6s" begin="0.8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- 右侧环形等级评分 -->
+  <g transform="translate(620, 175)">
+    <!-- 背景轨道 -->
+    <circle cx="0" cy="0" r="64" fill="none" stroke="#3a3c4e" stroke-width="10"/>
+    <!-- 进度环 - 动画填充 -->
+    <circle cx="0" cy="0" r="64" fill="none" stroke="url(#ringGrad)" stroke-width="10"
+      stroke-linecap="round"
+      stroke-dasharray="402" stroke-dashoffset="402"
+      transform="rotate(-90)">
+      <animate attributeName="stroke-dashoffset" values="402;80;80" dur="2s" begin="0.5s" fill="freeze"/>
+    </circle>
+
+    <!-- 等级文字 -->
+    <text x="0" y="15" font-family="'Segoe UI',sans-serif" font-size="46" font-weight="800" text-anchor="middle" fill="#e94560" opacity="0">
+      A-
+      <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.8s" fill="freeze"/>
+    </text>
+    <text x="0" y="40" font-family="'Segoe UI',sans-serif" font-size="11" text-anchor="middle" fill="#8b8d98" opacity="0">
+      GRADE
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="2.2s" fill="freeze"/>
+    </text>
+  </g>
+</svg>

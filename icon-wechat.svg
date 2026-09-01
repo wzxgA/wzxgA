@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <linearGradient id="wxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07c160"/>
+      <stop offset="100%" stop-color="#05934a"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="5" width="50" height="50" rx="12" fill="url(#wxGrad)"/>
+  <path d="M22 24 C22 21.24 25.13 19 29 19 C32.5 19 35.4 20.86 36 23.5 C38.6 24.2 40 26.4 40 29 C40 32 37.4 34 34.3 34 L34 34 L33 38 L29 35.8 L29 35 C25.13 35 22 32.76 22 30 C22 29.2 22.17 28.43 22.5 27.7 C22.18 26.5 22 25.28 22 24 Z" fill="none" stroke="#fff" stroke-width="2"/>
+  <circle cx="27" cy="26" r="1.5" fill="#fff"/>
+  <circle cx="33" cy="26" r="1.5" fill="#fff"/>
+</svg>

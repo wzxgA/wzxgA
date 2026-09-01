@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="150" viewBox="0 0 780 150">
+  <defs>
+    <filter id="bShadow" x="-5%" y="-10%" width="110%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+    <linearGradient id="jsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7df1e"/><stop offset="100%" stop-color="#f0b400"/>
+    </linearGradient>
+    <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3178c6"/><stop offset="100%" stop-color="#235a97"/>
+    </linearGradient>
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3776ab"/><stop offset="50%" stop-color="#ffd43b"/><stop offset="100%" stop-color="#306998"/>
+    </linearGradient>
+    <linearGradient id="goGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00add8"/><stop offset="100%" stop-color="#007d9c"/>
+    </linearGradient>
+    <linearGradient id="reactGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#61dafb"/><stop offset="100%" stop-color="#20a8ca"/>
+    </linearGradient>
+    <linearGradient id="vueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#42b883"/><stop offset="100%" stop-color="#35495e"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#339933"/><stop offset="100%" stop-color="#1d5a1d"/>
+    </linearGradient>
+    <linearGradient id="gitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f05032"/><stop offset="100%" stop-color="#bc3b1f"/>
+    </linearGradient>
+    <linearGradient id="dockerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2496ed"/><stop offset="100%" stop-color="#1368a0"/>
+    </linearGradient>
+    <linearGradient id="sqlGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00758f"/><stop offset="100%" stop-color="#f29111"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 第一行 -->
+  <g font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" filter="url(#bShadow)">
+    <rect x="10"  y="15" width="130" height="50" rx="12" fill="url(#jsGrad)"/>
+    <text x="75"  y="47" fill="#323330" text-anchor="middle">JavaScript</text>
+
+    <rect x="155" y="15" width="120" height="50" rx="12" fill="url(#tsGrad)"/>
+    <text x="215" y="47" fill="#ffffff" text-anchor="middle">TypeScript</text>
+
+    <rect x="290" y="15" width="110" height="50" rx="12" fill="url(#pyGrad)"/>
+    <text x="345" y="47" fill="#ffffff" text-anchor="middle">Python</text>
+
+    <rect x="415" y="15" width="95"  height="50" rx="12" fill="url(#goGrad)"/>
+    <text x="462" y="47" fill="#ffffff" text-anchor="middle">Golang</text>
+
+    <rect x="525" y="15" width="110" height="50" rx="12" fill="url(#reactGrad)"/>
+    <text x="580" y="47" fill="#20232a" text-anchor="middle">React</text>
+
+    <rect x="650" y="15" width="110" height="50" rx="12" fill="url(#vueGrad)"/>
+    <text x="705" y="47" fill="#ffffff" text-anchor="middle">Vue.js</text>
+  </g>
+
+  <!-- 第二行 -->
+  <g font-family="'Segoe UI',sans-serif" font-size="14" font-weight="600" filter="url(#bShadow)">
+    <rect x="10"  y="85" width="110" height="50" rx="12" fill="url(#nodeGrad)"/>
+    <text x="65"  y="117" fill="#ffffff" text-anchor="middle">Node.js</text>
+
+    <rect x="135" y="85" width="85"  height="50" rx="12" fill="url(#gitGrad)"/>
+    <text x="177" y="117" fill="#ffffff" text-anchor="middle">Git</text>
+
+    <rect x="235" y="85" width="110" height="50" rx="12" fill="url(#dockerGrad)"/>
+    <text x="290" y="117" fill="#ffffff" text-anchor="middle">Docker</text>
+
+    <rect x="360" y="85" width="100" height="50" rx="12" fill="url(#sqlGrad)"/>
+    <text x="410" y="117" fill="#ffffff" text-anchor="middle">MySQL</text>
+
+    <rect x="475" y="85" width="105" height="50" rx="12" fill="#e34f26"/>
+    <text x="527" y="117" fill="#ffffff" text-anchor="middle">HTML5</text>
+
+    <rect x="595" y="85" width="95"  height="50" rx="12" fill="#1572b6"/>
+    <text x="642" y="117" fill="#ffffff" text-anchor="middle">CSS3</text>
+
+    <rect x="705" y="85" width="65"  height="50" rx="12" fill="#06b6d4"/>
+    <text x="737" y="117" fill="#0f172a" text-anchor="middle" font-size="12">TW</text>
+  </g>
+</svg>

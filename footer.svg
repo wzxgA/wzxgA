@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="60" viewBox="0 0 360 60">
+  <text x="180" y="38" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="16" text-anchor="middle" fill="#8b8d98">
+    Made with
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  <text x="220" y="38" font-size="20">
+    ❤️
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/>
+  </text>
+  <text x="245" y="38" font-family="'Segoe UI',sans-serif" font-size="16" fill="#8b8d98">by wzxgA</text>
+</svg>
