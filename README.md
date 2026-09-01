@@ -1,51 +1,63 @@
-<div align="center">
-|   |   |
-| - | - |
+<p align="center">
+  <img src="https://github.com/wzxgA.png" width="160" height="160" style="border-radius: 50%; border: 3px solid #e94560; box-shadow: 0 0 20px rgba(233,69,96,0.3);" alt="avatar"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./greeting.svg" width="520" alt="Hi, I'm wzxgA"/>
+</p>
 
-</div>
+<br/>
 
-<br />
-
-***
+---
 
 ## 📊 GitHub Stats
 
-<!-- 纯 SVG 统计表卡片，外部文件引用，动画完整 -->
-
-<div align="center">
+<p align="center">
   <img src="./stats.svg" width="760" alt="wzxgA's GitHub Stats"/>
-</div>
+</p>
 
-<br />
+<br/>
 
-***
+---
 
 ## 🛠 Tech Stack
 
-<!-- 技术栈徽章，SVG 文件引用 -->
-
-<div align="center">
+<p align="center">
   <img src="./tech-stack.svg" width="780" alt="Tech Stack"/>
-</div>
+</p>
 
-<br />
+<br/>
 
-***
+---
 
 ## 🔗 Connect with me
 
-<!-- 社交链接：每个图标使用独立 SVG 文件引用，保证 GitHub 正确渲染 -->
+<p align="center">
+  <a href="https://github.com/wzxgA"><img src="./icon-github.svg" width="60" alt="GitHub"/></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:wzxgA@example.com"><img src="./icon-email.svg" width="60" alt="Email"/></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#"><img src="./icon-blog.svg" width="60" alt="Blog"/></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#"><img src="./icon-twitter.svg" width="60" alt="Twitter"/></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="./icon-wechat.svg" width="60" alt="WeChat"/>
+</p>
 
-<div align="center">
-| [ **GitHub** ](https://github.com/wzxgA) | [ **Email** ](mailto:wzxgA@example.com) | [ **Blog** ](#) | [ **Twitter** ](#) | **WeChat** |
-| ---------------------------------------- | --------------------------------------- | --------------- | ------------------ | ---------- |
+<p align="center">
+  <b>GitHub</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Email</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Blog</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Twitter</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>WeChat</b>
+</p>
 
-</div>
+<br/>
 
-<br />
+---
 
-***
-
-<div align="center">
-  <img src="./footer.svg" width="360" alt="Made with ❤️ by wzxgA"/>
-</div>
+<p align="center">
+  <img src="./footer.svg" width="360" alt="Made with love by wzxgA"/>
+</p>

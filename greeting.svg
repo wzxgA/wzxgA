@@ -15,30 +15,49 @@
 
   <!-- 第一行 Hi, -->
   <text x="20" y="52" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="42" font-weight="700" fill="url(#textGrad)">
-    <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0s" fill="freeze" />
     Hi,
   </text>
 
-  <!-- 第二行 I'm wzxgA 逐字打字机效果 -->
+  <!-- 第二行 I'm wzxgA -->
+  <!-- 每个字母放在独立的 g 中，animate 作用于 g 的 opacity，避免在 text 内部嵌套 animate -->
   <g>
-    <text x="20"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">I<animate attributeName="opacity" values="0;0;1;1" dur="3.2s" begin="0.5s" repeatCount="indefinite"/></text>
-    <text x="50"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">'<animate attributeName="opacity" values="0;0;1;1" dur="3.0s" begin="0.65s" repeatCount="indefinite"/></text>
-    <text x="62"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">m<animate attributeName="opacity" values="0;0;1;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/></text>
-    <text x="98"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">w<animate attributeName="opacity" values="0;0;1;1" dur="2.6s" begin="1.0s" repeatCount="indefinite"/></text>
-    <text x="138" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">z<animate attributeName="opacity" values="0;0;1;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></text>
-    <text x="176" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">x<animate attributeName="opacity" values="0;0;1;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/></text>
-    <text x="214" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">g<animate attributeName="opacity" values="0;0;1;1" dur="2.0s" begin="1.6s" repeatCount="indefinite"/></text>
-    <text x="254" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">A<animate attributeName="opacity" values="0;0;1;1" dur="1.8s" begin="1.8s" repeatCount="indefinite"/></text>
-
-    <!-- 光标 -->
-    <rect x="295" y="60" width="4" height="46" rx="2" fill="#e94560">
-      <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
-    </rect>
-
-    <!-- 手型摆动 -->
-    <text x="440" y="100" font-size="44">
-      👋
-      <animateTransform attributeName="transform" type="rotate" values="0 460 90;-10 460 90;10 460 90;-5 460 90;0 460 90" dur="1.5s" repeatCount="indefinite" />
-    </text>
+    <animate attributeName="opacity" values="0;0;1;1" dur="3.2s" begin="0.5s" repeatCount="indefinite"/>
+    <text x="20"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">I</text>
   </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="3.0s" begin="0.65s" repeatCount="indefinite"/>
+    <text x="50"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">'</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="2.8s" begin="0.8s" repeatCount="indefinite"/>
+    <text x="62"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">m</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="2.6s" begin="1.0s" repeatCount="indefinite"/>
+    <text x="98"  y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">w</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+    <text x="138" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">z</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+    <text x="176" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">x</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="2.0s" begin="1.6s" repeatCount="indefinite"/>
+    <text x="214" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">g</text>
+  </g>
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1" dur="1.8s" begin="1.8s" repeatCount="indefinite"/>
+    <text x="254" y="100" font-family="'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif" font-size="48" font-weight="800" fill="url(#textGrad)">A</text>
+  </g>
+
+  <!-- 光标 -->
+  <rect x="295" y="60" width="4" height="46" rx="2" fill="#e94560">
+    <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- 挥手 emoji -->
+  <text x="440" y="100" font-size="44">👋</text>
 </svg>
