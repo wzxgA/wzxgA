@@ -4,9 +4,9 @@
   <img src="./greeting.svg" width="520" alt="Hi, I'm wzxgA"/>
 </p>
 
-<br/>
+<br />
 
----
+***
 
 ## 📊 GitHub Stats
 
@@ -14,9 +14,9 @@
   <img src="./stats.svg" width="760" alt="wzxgA's GitHub Stats"/>
 </p>
 
-<br/>
+<br />
 
----
+***
 
 ## 🛠 Tech Stack
 
@@ -24,39 +24,35 @@
   <img src="./tech-stack.svg" width="780" alt="Tech Stack"/>
 </p>
 
-<br/>
+<br />
 
----
+***
 
 ## 🔗 Connect with me
 
 <p align="center">
-  <a href="https://github.com/wzxgA"><img src="./icon-github.svg" width="60" alt="GitHub"/></a>
+  <a href="#"><img src="./icon-qq.svg" width="60" alt="QQ"/></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="mailto:wzxgA@example.com"><img src="./icon-email.svg" width="60" alt="Email"/></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#"><img src="./icon-blog.svg" width="60" alt="Blog"/></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="#"><img src="./icon-twitter.svg" width="60" alt="Twitter"/></a>
+  <a href="#"><img src="./icon-csdn.svg" width="60" alt="CSDN"/></a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="./icon-wechat.svg" width="60" alt="WeChat"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#"><img src="./icon-qqmail.svg" width="60" alt="QQ Mail"/></a>
 </p>
 
 <p align="center">
-  <b>GitHub</b>
+  <b>QQ</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>CSDN</b>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Email</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Blog</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Twitter</b>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <b>WeChat</b>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>QQ Mail</b>
 </p>
 
-<br/>
+<br />
 
----
+***
 
 <p align="center">
   <img src="./footer.svg" width="360" alt="Made with love by wzxgA"/>

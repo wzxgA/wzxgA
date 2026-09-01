@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <rect x="5" y="5" width="50" height="50" rx="12" fill="#F59B23"/>
+  <!-- 信封 -->
+  <rect x="16" y="22" width="28" height="18" rx="2" fill="none" stroke="#fff" stroke-width="2.5"/>
+  <path d="M16 24 L30 33 L44 24" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>
