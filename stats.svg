@@ -44,7 +44,7 @@
     <text x="48" y="192" font-size="18">⚠️</text>
     <text x="85" y="192" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total Issues Opened:</text>
     <text x="420" y="192" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
-      3
+      4
       <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" begin="0.4s" repeatCount="indefinite"/>
     </text>
   </g>
