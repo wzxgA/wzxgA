@@ -26,7 +26,7 @@
     <text x="48" y="112" font-size="18">⭐</text>
     <text x="85" y="112" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total Stars Earned:</text>
     <text x="420" y="112" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
-      25
+      24
       <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" begin="0.0s" repeatCount="indefinite"/>
     </text>
   </g>
@@ -35,7 +35,7 @@
     <text x="48" y="152" font-size="18">🔀</text>
     <text x="85" y="152" font-family="'Segoe UI',sans-serif" font-size="17" fill="#e4e4e7" font-weight="500">Total Pull Requests:</text>
     <text x="420" y="152" font-family="'Segoe UI',sans-serif" font-size="20" font-weight="700" fill="#f0f0f0" text-anchor="middle">
-      26
+      27
       <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" begin="0.2s" repeatCount="indefinite"/>
     </text>
   </g>
@@ -71,9 +71,9 @@
     <circle cx="0" cy="0" r="64" fill="none" stroke="#3a3c4e" stroke-width="10"/>
     <circle cx="0" cy="0" r="64" fill="none" stroke="url(#ringGrad)" stroke-width="10"
       stroke-linecap="round"
-      stroke-dasharray="402" stroke-dashoffset="396"
+      stroke-dasharray="402" stroke-dashoffset="397"
       transform="rotate(-90)">
-      <animate attributeName="stroke-dashoffset" values="402;396;396" dur="2s" begin="0.5s" fill="freeze"/>
+      <animate attributeName="stroke-dashoffset" values="402;397;397" dur="2s" begin="0.5s" fill="freeze"/>
     </circle>
 
     <text x="0" y="15" font-family="'Segoe UI',sans-serif" font-size="46" font-weight="800" text-anchor="middle" fill="#e94560" opacity="0">
